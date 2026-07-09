@@ -1,0 +1,381 @@
+body {
+    background-color: #000000;
+}
+header {
+    padding: 16px 0px 16px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+.desktop-page {
+    animation: fadeInPage 0.5s ease-in-out forwards;
+}
+.logo {
+    padding: 17px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+.info {
+    padding: 17px 32px 17px 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.info h1 {
+    margin: 0 auto;
+    color: #ff0050;
+    text-align: center;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info h1:hover {
+    color: #ffffff;
+}
+.selectable-box {
+    box-sizing: border-box;
+    height: 690px;
+    position: relative;
+}
+.selectable-box .first-row {
+    margin: 0 auto;
+    width: 1244px;
+    height: 300px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+.selectable-box .first-row .selectable-1 {
+    background-color: #ffffff;
+    flex-shrink: 0;
+    border-radius: 30px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+.selectable-box .first-row .selectable-1 h1 {
+    border-radius: 30px 30px 0 0;
+    margin: 0 auto;
+    background-color: #ff0050;
+    color: #000000;
+    text-align: center;
+    font-family: "AkiraExpanded-Bold", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    user-select: none;
+}
+.selectable-box .first-row .selectable-1 .rectangle {
+    background-color: #ff0050;
+    flex-shrink: 0;
+    border-radius: 30px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    animation: fadeOutEffect 0.4s ease-in-out forwards;
+}
+.selectable-box .first-row .selectable-1 .rectangle:hover {
+    background-color: #ff0050;
+    opacity: 60%;
+    animation: fadeInEffect 0.4s ease-in-out forwards;
+}
+
+.selectable-box .first-row .selectable-2 {
+    background-color: #ffffff;
+    flex-shrink: 0;
+    border-radius: 30px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+.selectable-box .first-row .selectable-2 h1 {
+    border-radius: 30px 30px 0 0;
+    margin: 0 auto;
+    background-color: #ff0050;
+    color: #000000;
+    text-align: center;
+    font-family: "AkiraExpanded-Bold", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    user-select: none;
+}
+.selectable-box .first-row .selectable-2 .rectangle {
+    background-color: #ff0050;
+    flex-shrink: 0;
+    border-radius: 30px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    animation: fadeOutEffect 0.4s ease-in-out forwards;
+}
+.selectable-box .first-row .selectable-2 .rectangle:hover {
+    background-color: #ff0050;
+    opacity: 60%;
+    animation: fadeInEffect 0.4s ease-in-out forwards;
+}
+.selectable-box .first-row .selectable-3 {
+    background-color: #ffffff;
+    flex-shrink: 0;
+    border-radius: 30px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+.selectable-box .first-row .selectable-3 h1 {
+    border-radius: 30px 30px 0 0;
+    margin: 0 auto;
+    background-color: #ff0050;
+    color: #000000;
+    text-align: center;
+    font-family: "AkiraExpanded-Bold", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    user-select: none;
+}
+.selectable-box .first-row .selectable-3 .rectangle {
+    background-color: #ff0050;
+    flex-shrink: 0;
+    border-radius: 30px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    animation: fadeOutEffect 0.4s ease-in-out forwards;
+}
+.selectable-box .first-row .selectable-3 .rectangle:hover {
+    background-color: #ff0050;
+    opacity: 60%;
+    animation: fadeInEffect 0.4s ease-in-out forwards;
+}
+
+.selectable-box .second-row {
+    margin: 0 auto;
+    width: 1244px;
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.selectable-box .second-row .selectable-4 {
+    background-color: #ffffff;
+    flex-shrink: 0;
+    border-radius: 30px;
+    width: 611px;
+    height: 300px;
+    position: relative;
+}
+.selectable-box .second-row .selectable-4 h1 {
+    border-radius: 30px 30px 0 0;
+    margin: 0 auto;
+    background-color: #ff0050;
+    color: #000000;
+    text-align: center;
+    font-family: "AkiraExpanded-Bold", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 611px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    user-select: none;
+}
+.selectable-box .second-row .selectable-4 .rectangle {
+    background-color: #ff0050;
+    flex-shrink: 0;
+    border-radius: 30px;
+    width: 611px;
+    height: 300px;
+    position: relative;
+    animation: fadeOutEffect 0.4s ease-in-out forwards;
+}
+.selectable-box .second-row .selectable-4 .rectangle:hover {
+    background-color: #ff0050;
+    opacity: 60%;
+    animation: fadeInEffect 0.4s ease-in-out forwards;
+}
+.selectable-box .second-row .selectable-5 {
+    background-color: #ffffff;
+    flex-shrink: 0;
+    border-radius: 30px;
+    width: 611px;
+    height: 300px;
+    position: relative;
+}
+.selectable-box .second-row .selectable-5 h1 {
+    border-radius: 30px 30px 0 0;
+    margin: 0 auto;
+    background-color: #ff0050;
+    color: #000000;
+    text-align: center;
+    font-family: "AkiraExpanded-Bold", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 611px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    user-select: none;
+}
+.selectable-box .second-row .selectable-5 .rectangle {
+    background-color: #ff0050;
+    flex-shrink: 0;
+    border-radius: 30px;
+    width: 611px;
+    height: 300px;
+    position: relative;
+    animation: fadeOutEffect 0.4s ease-in-out forwards;
+}
+.selectable-box .second-row .selectable-5 .rectangle:hover {
+    background-color: #ff0050;
+    opacity: 60%;
+    animation: fadeInEffect 0.4s ease-in-out forwards;
+}
+.mini-menu{
+    display: flex;
+    margin-bottom: 5px;
+}
+.home-buttom {
+    box-sizing: border-box;
+    background-color: #ff0050;
+    width: 78px;
+    height: 82px;
+    position: relative;
+    overflow: visible;
+    margin-bottom: 5px;
+}
+.page-name{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+.page-name h1{
+    color: #ff0050;
+    text-align: center;
+    font-family: "AkiraExpanded-Bold", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    position: relative;
+    width: 490px;
+    margin: 0 auto;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+.art-section{
+    background: #ff0050;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 782px;
+    position: relative;
+    overflow: hidden;
+}
+
+@keyframes fadeInEffect {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 60%;
+    }
+}
+
+@keyframes fadeOutEffect {
+    from {
+        opacity: 60%;
+    }
+    to {
+        opacity: 0%;
+    }
+}
+
+@keyframes fadeInPage {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeOutPage {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
