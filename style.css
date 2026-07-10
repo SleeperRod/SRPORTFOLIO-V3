@@ -10,7 +10,7 @@ header {
     position: relative;
     overflow: hidden;
 }
-.desktop-page {
+.page {
     animation: fadeInPage 0.5s ease-in-out forwards;
 }
 .logo {

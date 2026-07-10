@@ -1,4 +1,4 @@
-const desktopPage = document.querySelector(".desktop-page");
+const desktopPage = document.querySelector(".page");
 
 function fadingOutPage() {
   desktopPage.addEventListener("fadingOutProcess", function () {
