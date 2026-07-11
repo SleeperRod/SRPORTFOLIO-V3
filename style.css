@@ -9,6 +9,7 @@ header {
     justify-content: space-between;
     position: relative;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 .page {
     animation: fadeInPage 0.5s ease-in-out forwards;
@@ -57,7 +58,7 @@ header {
 }
 .selectable-box {
     box-sizing: border-box;
-    height: 690px;
+    height: 670px;
     position: relative;
 }
 .selectable-box .first-row {
@@ -316,7 +317,6 @@ header {
     margin-bottom: 5px;
     cursor: pointer;
 }
-
 .home-buttom .home-icon-1 path{
     fill: #ff0050;
     cursor: pointer;
