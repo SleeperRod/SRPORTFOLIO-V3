@@ -584,6 +584,11 @@
     .selectable-box .second-row{
         display: none;
     }
+    .mini-menu{
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
     .home-buttom{
         box-sizing: border-box;
         width: 108px;
@@ -607,11 +612,12 @@
         color: #ff0050;
         text-align: center;
         font-family: "AkiraExpanded-Bold", sans-serif;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 700;
         position: relative;
         width: 490px;
         display: flex;
+        justify-content:center;
         align-items: center;
     }
     .art-section{
