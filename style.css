@@ -15,14 +15,19 @@ header {
     animation: fadeInPage 0.5s ease-in-out forwards;
 }
 .logo {
-    padding: 17px;
+    padding: 8px;
     display: flex;
     flex-direction: row;
     gap: 10px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-shrink: 0;
     position: relative;
+}
+.logo img {
+    height: 60px;
+    width: auto;
+    display: block;
 }
 .info {
     padding: 17px 32px 17px 32px;
