@@ -11,6 +11,9 @@
         overflow: hidden;
         margin-bottom: 20px;
     }
+    .logo{
+        display: none;
+    }
     .info {
         padding: 9px 16px 9px 16px;
         display: flex;
@@ -309,13 +312,16 @@
 @media (max-width: 500px) {
     header {
         background-color: #ff0050;
-        padding: 8px 0px 8px 0px;
+        padding: 16px 0px 16px 0px;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
         position: relative;
         overflow: hidden;
+    }
+    .logo{
+        display: none;
     }
     .info {
         margin: 0 auto;
